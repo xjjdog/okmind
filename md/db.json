@@ -2,5 +2,9 @@
   {
     "title": "数据库-MySQL概览",
     "md": "db-mysql"
+  },
+  {
+    "title": "数据库-KV-Redis面面观",
+    "md": "db-redis"
   }
 ]
