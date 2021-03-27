@@ -1,10 +1,18 @@
 [
   {
-    "title": "Java-后端-技术图谱",
+    "title": "Java-后端-技术图谱 [学完就秃]",
     "md": "ok-java_road_map"
   },
   {
-    "title": "Java-后端-常用框架集合",
+    "title": "Java-后端-框架集锦 [成神之路]",
     "md": "ok-java_tools"
+  },
+  {
+    "title": "大型网站-平台化建设之路 [老板都喜欢]",
+    "md": "ok-to_be_big"
+  },
+  {
+    "title": "Python怎么学 ？ [自学即可]",
+    "md": "ok-python_how_to"
   }
 ]
