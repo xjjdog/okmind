@@ -11,15 +11,10 @@
 ### 主要
 
 - string
-  - sds
 - hash
-  - ziplist,dict
 - list
-  - ziplist,quicklist
 - set
-  - intset,dict
 - zset
-  - ziplist,skiptable
 
 ### 其他
 
@@ -103,10 +98,16 @@
 
 ## 缓存问题
 
-- 缓存一致性 建议cache aside pattern
+- 缓存一致性 
+  - 建议cache aside pattern
 - 缓存击穿
 - 缓存穿透
+  - 缓存空对象
+  - 布隆过滤器
 - 缓存雪崩
+  - 保证高可用
+  - 限流降级
+  - 提前演练
 
 ## 主要java客户端
 

@@ -14,5 +14,13 @@
   {
     "title": "Java核心-NIO",
     "md": "java-nio"
+  },
+  {
+    "title": "Spring-事务管理",
+    "md": "java-spring_tx"
+  },
+  {
+    "title": "Gof-设计模式23",
+    "md": "java-gof"
   }
 ]
