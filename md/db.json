@@ -10,5 +10,9 @@
   {
     "title": "数据库-KV-Redis底层实现",
     "md": "db-redis_inner"
+  },
+  {
+    "title": "数据库-分布式-ZooKeeper概览",
+    "md": "db-zookeeper"
   }
 ]
