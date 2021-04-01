@@ -20,10 +20,10 @@
 - OLTP
 - 支持事务
 - 支持行锁、外键、非锁定读
-- MVCC
 - 支持标准隔离级别
 - next-key策略避免幻读
 - 存储方式是聚集索引(clustered)
+- MVCC
 
 ### MyISAM
 
@@ -78,6 +78,8 @@
 
 ## 锁
 
+### show status like 'innodb_row_lock%';
+
 ### 类型
 
 - SLock 共享锁
@@ -86,9 +88,30 @@
 
 ### 行锁
 
+- 快照读（snapshot read）
+- 当前读（current read）
 - Record Lock Note:单行记录上锁
 - Gap Lock Note:间隙锁
 - Next-Key Lock 
+
+## 约束
+
+- 主键
+- 联合约束
+- 唯一约束
+- 外键
+
+
+## 数据类型
+
+- 整数
+- 定点数
+- 浮点数
+- 二进制
+- 字符串
+- 枚举
+- set
+- 时间日期
 
 ## 常见问题
 
