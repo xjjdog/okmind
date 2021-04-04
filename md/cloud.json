@@ -2,5 +2,9 @@
   {
     "title": "虚拟化-Docker",
     "md": "cloud-docker"
+  },
+  {
+    "title": "虚拟化-k8s知识",
+    "md": "cloud-k8s"
   }
 ]
